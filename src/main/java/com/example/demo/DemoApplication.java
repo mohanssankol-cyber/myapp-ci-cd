@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication
+@SpringBootApplication 
 @RestController
 public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello DevOps from Jenkins CI/CD 🚀 By Varun";
+        return "Hello DevOps from Jenkins CI/CD 🚀 By Varun's";
     }
 
     public static void main(String[] args) {
